@@ -1,0 +1,8 @@
+default[:mongos][:version] = "3.2"
+default[:mongos][:container_port] = "27017"
+default[:mongos][:host_port] = "27017"
+default[:mongos][:container_data_dir] = "/data"
+default[:mongos][:host_data_dir] = "/mnt/data/mongo"
+default[:mongos][:container_data_db_dir] = "/data/db"
+default[:mongos][:host_data_db_dir] = "/mnt/data/mongo/db"
+default[:mongos][:container_label] = "mongo32"

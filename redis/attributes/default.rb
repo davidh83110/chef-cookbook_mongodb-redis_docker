@@ -1,0 +1,6 @@
+default[:redis][:version] = "3.2"
+default[:redis][:container_port] = "6379"
+default[:redis][:host_port] = "6379"
+default[:redis][:container_data_dir] = "/data"
+default[:redis][:host_data_dir] = "/mnt/data/redis"
+default[:redis][:container_label] = "redis32"
